@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTSqlite_Example' do
+  pod 'TTSqlite', :path => '../'
+
+  target 'TTSqlite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
