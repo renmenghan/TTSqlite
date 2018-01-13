@@ -23,6 +23,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		745BD5D503EB55A1AAA1450F /* Pods_TTSqlite_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091AF5F6277F94A747CFB23 /* Pods_TTSqlite_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E1C466E12004C765007C198E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C466E02004C765007C198E /* libsqlite3.0.tbd */; };
+		E1C466E52004CC83007C198E /* TTSqliteToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466E42004CC83007C198E /* TTSqliteToolTest.m */; };
+		E1C466F020050D31007C198E /* TTModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466EF20050D31007C198E /* TTModelToolTest.m */; };
+		E1C466F320050D61007C198E /* TTStu.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466F220050D61007C198E /* TTStu.m */; };
+		E1F97C2E2005C476003F0083 /* TTTableToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2D2005C476003F0083 /* TTTableToolTest.m */; };
+		E1F97C302006570F003F0083 /* TTSqliteModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2F2006570F003F0083 /* TTSqliteModelToolTest.m */; };
 		EA478B6EA02FB719CB4D1A6E /* Pods_TTSqlite_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571972A1DB1A610F4D404F7A /* Pods_TTSqlite_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		188BABEDCE05B945A8ACB938 /* TTSqlite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTSqlite.podspec; path = ../TTSqlite.podspec; sourceTree = "<group>"; };
+		188BABEDCE05B945A8ACB938 /* TTSqlite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTSqlite.podspec; path = ../TTSqlite.podspec; sourceTree = "<group>"; };
 		2E41A1E5DFF1FA19E4573699 /* Pods-TTSqlite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSqlite_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSqlite_Example/Pods-TTSqlite_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		571972A1DB1A610F4D404F7A /* Pods_TTSqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTSqlite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TTSqlite_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTSqlite_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +69,16 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8091AF5F6277F94A747CFB23 /* Pods_TTSqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTSqlite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9279F245FFE9E46C634BF4A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DC7DE469BA60E6E89110DA91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9279F245FFE9E46C634BF4A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC7DE469BA60E6E89110DA91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DF3DF0667F3F3A60A4E89B38 /* Pods-TTSqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSqlite_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTSqlite_Example/Pods-TTSqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E1C466E02004C765007C198E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E1C466E42004CC83007C198E /* TTSqliteToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSqliteToolTest.m; sourceTree = "<group>"; };
+		E1C466EF20050D31007C198E /* TTModelToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTModelToolTest.m; sourceTree = "<group>"; };
+		E1C466F120050D61007C198E /* TTStu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTStu.h; sourceTree = "<group>"; };
+		E1C466F220050D61007C198E /* TTStu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTStu.m; sourceTree = "<group>"; };
+		E1F97C2D2005C476003F0083 /* TTTableToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTableToolTest.m; sourceTree = "<group>"; };
+		E1F97C2F2006570F003F0083 /* TTSqliteModelToolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSqliteModelToolTest.m; sourceTree = "<group>"; };
 		EDFF019CA814D6F6B39E33CC /* Pods-TTSqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTSqlite_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTSqlite_Tests/Pods-TTSqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C466E12004C765007C198E /* libsqlite3.0.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1C466E02004C765007C198E /* libsqlite3.0.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -140,6 +155,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E1C466F120050D61007C198E /* TTStu.h */,
+				E1C466F220050D61007C198E /* TTStu.m */,
 			);
 			name = "Example for TTSqlite";
 			path = TTSqlite;
@@ -159,6 +176,10 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				E1F97C2F2006570F003F0083 /* TTSqliteModelToolTest.m */,
+				E1F97C2D2005C476003F0083 /* TTTableToolTest.m */,
+				E1C466E42004CC83007C198E /* TTSqliteToolTest.m */,
+				E1C466EF20050D31007C198E /* TTModelToolTest.m */,
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
@@ -404,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* RMHAppDelegate.m in Sources */,
+				E1C466F320050D61007C198E /* TTStu.m in Sources */,
 				6003F5A7195388D20070C39A /* RMHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -413,7 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C466F020050D31007C198E /* TTModelToolTest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				E1F97C2E2005C476003F0083 /* TTTableToolTest.m in Sources */,
+				E1F97C302006570F003F0083 /* TTSqliteModelToolTest.m in Sources */,
+				E1C466E52004CC83007C198E /* TTSqliteToolTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

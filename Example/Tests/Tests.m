@@ -2,8 +2,8 @@
 //  TTSqliteTests.m
 //  TTSqliteTests
 //
-//  Created by renmenghan on 01/09/2018.
-//  Copyright (c) 2018 renmenghan. All rights reserved.
+//  Created by renmenghan on 01/09/2016.
+//  Copyright (c) 2016 renmenghan. All rights reserved.
 //
 
 @import XCTest;
@@ -28,7 +28,12 @@
 
 - (void)testExample
 {
+    
+    NSArray *arr = @[@"2",@"3",@"5"];
+    BOOL result = [arr containsObject:@"6"];
+    
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
 }
 
 @end

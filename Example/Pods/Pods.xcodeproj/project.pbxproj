@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1731A0A1100D962DD62EA8C3AA33391C /* Pods-TTSqlite_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC62B39F747690984B1262AB9F2F30A5 /* Pods-TTSqlite_Example-dummy.m */; };
+		2521B78289B705A229629A98AB44235A /* TTTableTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 668A106B761BC436D611727E47E648BA /* TTTableTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C5D6DA3E0937C5554EE7B85AE98005 /* TTSqlite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDBEA40B778A3649C9C1354B7AC116D /* TTSqlite-dummy.m */; };
+		3C33E35F8D8A71F781F7528B70551BFC /* Pods-TTSqlite_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E73573E814F9E8664680C0EEAC0BE13 /* Pods-TTSqlite_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4063F6CEE5F80120F64FC2889AFD5DB9 /* TTTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4738E5CB9585F953B03AF29ADB3FF89 /* TTTableTool.m */; };
+		53BB967CC682040F3355556851E4D1A9 /* Pods-TTSqlite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E754976528E3C083292A47EBFA5C9F /* Pods-TTSqlite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A8A611A6BAD2E5C6681845A26FA9863 /* TTSqlite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8313D2403E03ECF5C026466553C6AE9A /* TTSqlite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E984F064B9B1D1DCE9887E9ED0170C4 /* TTSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC904D4C0325E7F324ACD1D021A9E1E3 /* TTSqliteTool.m */; };
+		81E2ECE28AD54AB5FCB95ABA72976FF9 /* TTModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BC131C523A37CEDFE2E1C12DE4D425 /* TTModelTool.m */; };
+		93014ECB17FB92235C36B2B9D0BC5EB2 /* TTSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAE6AB8A7AE893CB9C7A8EF7DAE8A6 /* TTSqliteModelTool.m */; };
+		96ECE1E7B6D8C33581155FC2A4CF9FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9FEA45999C041BFD7A8F82F9EA884874 /* TTModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E942CA05DC581117E69FDAA286D771F /* TTModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69D0965F4FAB2771B67044F27738D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CFAE6C84EA361D8E216B761859D9C862 /* TTModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DC4125804E7F76A83109818083E433 /* TTModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D0ACE7DF7D814388BAEBC6CC35C3FA /* TTSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 20683661176DAD07A884B4B82D1935AD /* TTSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8D80F3C4019C5D5B548A6DEAA791E17 /* Pods-TTSqlite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D7BE33E302031CF6813168D79F25F0 /* Pods-TTSqlite_Tests-dummy.m */; };
+		EC805BA1CBCC8004715572E90E48EAD6 /* TTSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACA8C1DDB3F7FAAE18F37EDBCE946D7 /* TTSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE4D0B86B26048E05C56268C7DFDFCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FCA3C88117AA34020FED6088517F049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9AE30C3D475FD2345BA5134B9FF2BA;
+			remoteInfo = TTSqlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		177C4CBC84F69F466D62D1ED82410DB9 /* Pods-TTSqlite_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSqlite_Tests-resources.sh"; sourceTree = "<group>"; };
+		1ACA8C1DDB3F7FAAE18F37EDBCE946D7 /* TTSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSqliteModelTool.h; path = TTSqlite/Classes/TTSqliteModelTool.h; sourceTree = "<group>"; };
+		20683661176DAD07A884B4B82D1935AD /* TTSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTSqliteTool.h; path = TTSqlite/Classes/TTSqliteTool.h; sourceTree = "<group>"; };
+		26181DDDBA2901EA03462F2D234B4530 /* TTSqlite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSqlite.xcconfig; sourceTree = "<group>"; };
+		29D7102B3C126A3E4E84E9284926EB1B /* TTSqlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTSqlite.framework; path = TTSqlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F10F087ECB7198FB6500C5C4EAFF2B4 /* TTSqlite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTSqlite.modulemap; sourceTree = "<group>"; };
+		495044F6894A10D122AA8A355FBD3B67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		495304F82255C60F01B4C8A01B9D1B23 /* Pods-TTSqlite_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSqlite_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4BDBEA40B778A3649C9C1354B7AC116D /* TTSqlite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTSqlite-dummy.m"; sourceTree = "<group>"; };
+		4E73573E814F9E8664680C0EEAC0BE13 /* Pods-TTSqlite_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTSqlite_Example-umbrella.h"; sourceTree = "<group>"; };
+		557CA466713BEF44B34F75D3D8E64BAF /* Pods-TTSqlite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSqlite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56D7BE33E302031CF6813168D79F25F0 /* Pods-TTSqlite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSqlite_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C76DD8FBC92D29B4830F3C5A751C698 /* Pods-TTSqlite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TTSqlite_Tests.modulemap"; sourceTree = "<group>"; };
+		64BC131C523A37CEDFE2E1C12DE4D425 /* TTModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTModelTool.m; path = TTSqlite/Classes/TTModelTool.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		668A106B761BC436D611727E47E648BA /* TTTableTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTableTool.h; path = TTSqlite/Classes/TTTableTool.h; sourceTree = "<group>"; };
+		6774D738B8EC995BE09C47DF9787E873 /* Pods_TTSqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTSqlite_Example.framework; path = "Pods-TTSqlite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E754976528E3C083292A47EBFA5C9F /* Pods-TTSqlite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTSqlite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7183DF147FF63A785E724A15D5C2F2C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAAF339A77CBB6C3A647B8401D7DCCA /* Pods-TTSqlite_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSqlite_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1A5EEB7FA4CC661A9931E5839C64AD /* Pods-TTSqlite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSqlite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8313D2403E03ECF5C026466553C6AE9A /* TTSqlite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSqlite-umbrella.h"; sourceTree = "<group>"; };
+		85C75807915836CC4936BCF56A366D93 /* Pods_TTSqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTSqlite_Tests.framework; path = "Pods-TTSqlite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9ADD0C4C6CF9D70111EAABC2A9CAF0 /* Pods-TTSqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E942CA05DC581117E69FDAA286D771F /* TTModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTModelProtocol.h; path = TTSqlite/Classes/TTModelProtocol.h; sourceTree = "<group>"; };
+		8F8744CBF1A217F62407E68EA0291110 /* Pods-TTSqlite_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSqlite_Example-resources.sh"; sourceTree = "<group>"; };
+		9284F158DC5618063B02B5ABE370E801 /* Pods-TTSqlite_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSqlite_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A39E093991CB26004F47A947EABC93C6 /* Pods-TTSqlite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTSqlite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4738E5CB9585F953B03AF29ADB3FF89 /* TTTableTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTableTool.m; path = TTSqlite/Classes/TTTableTool.m; sourceTree = "<group>"; };
+		B4DC4125804E7F76A83109818083E433 /* TTModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTModelTool.h; path = TTSqlite/Classes/TTModelTool.h; sourceTree = "<group>"; };
+		B7E2DD8D8C17CFC7DD8C6950D9B2426D /* Pods-TTSqlite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTSqlite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC62B39F747690984B1262AB9F2F30A5 /* Pods-TTSqlite_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTSqlite_Example-dummy.m"; sourceTree = "<group>"; };
+		CC904D4C0325E7F324ACD1D021A9E1E3 /* TTSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSqliteTool.m; path = TTSqlite/Classes/TTSqliteTool.m; sourceTree = "<group>"; };
+		D3FAE6AB8A7AE893CB9C7A8EF7DAE8A6 /* TTSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTSqliteModelTool.m; path = TTSqlite/Classes/TTSqliteModelTool.m; sourceTree = "<group>"; };
+		D456586CD973E56E5C0C7FC6B23867E4 /* Pods-TTSqlite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTSqlite_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D5DD6BE8A7036A9C9113C3F41D5A5629 /* Pods-TTSqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTSqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E31E1BB527031AB48D8199462020AC /* Pods-TTSqlite_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TTSqlite_Example.modulemap"; sourceTree = "<group>"; };
+		D7946F3BB10C3253A93224140C5FD71C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CAB1614EA9CAE2F83EDFEE5C72B8D1 /* TTSqlite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSqlite-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1141130AF91E7C60DC6A127BE6F48471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ECE1E7B6D8C33581155FC2A4CF9FDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CB18E231483618AF1204AE570C0715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69D0965F4FAB2771B67044F27738D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E72E4146C08BC8D4BC5876E9275414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE4D0B86B26048E05C56268C7DFDFCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC290B172BF1B84F42E11646C56F531 /* Pods-TTSqlite_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7183DF147FF63A785E724A15D5C2F2C9 /* Info.plist */,
+				D5E31E1BB527031AB48D8199462020AC /* Pods-TTSqlite_Example.modulemap */,
+				A39E093991CB26004F47A947EABC93C6 /* Pods-TTSqlite_Example-acknowledgements.markdown */,
+				9284F158DC5618063B02B5ABE370E801 /* Pods-TTSqlite_Example-acknowledgements.plist */,
+				BC62B39F747690984B1262AB9F2F30A5 /* Pods-TTSqlite_Example-dummy.m */,
+				495304F82255C60F01B4C8A01B9D1B23 /* Pods-TTSqlite_Example-frameworks.sh */,
+				8F8744CBF1A217F62407E68EA0291110 /* Pods-TTSqlite_Example-resources.sh */,
+				4E73573E814F9E8664680C0EEAC0BE13 /* Pods-TTSqlite_Example-umbrella.h */,
+				7BAAF339A77CBB6C3A647B8401D7DCCA /* Pods-TTSqlite_Example.debug.xcconfig */,
+				8B9ADD0C4C6CF9D70111EAABC2A9CAF0 /* Pods-TTSqlite_Example.release.xcconfig */,
+			);
+			name = "Pods-TTSqlite_Example";
+			path = "Target Support Files/Pods-TTSqlite_Example";
+			sourceTree = "<group>";
+		};
+		23698FBF125E59D6DD282CA3E2CD3A70 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65CDC6A4094CA90B467B34F250E7325E /* TTSqlite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D77F1BBF9A67BDF94ED3BBA5B698868 /* Pods-TTSqlite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				495044F6894A10D122AA8A355FBD3B67 /* Info.plist */,
+				5C76DD8FBC92D29B4830F3C5A751C698 /* Pods-TTSqlite_Tests.modulemap */,
+				557CA466713BEF44B34F75D3D8E64BAF /* Pods-TTSqlite_Tests-acknowledgements.markdown */,
+				B7E2DD8D8C17CFC7DD8C6950D9B2426D /* Pods-TTSqlite_Tests-acknowledgements.plist */,
+				56D7BE33E302031CF6813168D79F25F0 /* Pods-TTSqlite_Tests-dummy.m */,
+				D456586CD973E56E5C0C7FC6B23867E4 /* Pods-TTSqlite_Tests-frameworks.sh */,
+				177C4CBC84F69F466D62D1ED82410DB9 /* Pods-TTSqlite_Tests-resources.sh */,
+				67E754976528E3C083292A47EBFA5C9F /* Pods-TTSqlite_Tests-umbrella.h */,
+				D5DD6BE8A7036A9C9113C3F41D5A5629 /* Pods-TTSqlite_Tests.debug.xcconfig */,
+				7C1A5EEB7FA4CC661A9931E5839C64AD /* Pods-TTSqlite_Tests.release.xcconfig */,
+			);
+			name = "Pods-TTSqlite_Tests";
+			path = "Target Support Files/Pods-TTSqlite_Tests";
+			sourceTree = "<group>";
+		};
+		65CDC6A4094CA90B467B34F250E7325E /* TTSqlite */ = {
+			isa = PBXGroup;
+			children = (
+				8E942CA05DC581117E69FDAA286D771F /* TTModelProtocol.h */,
+				B4DC4125804E7F76A83109818083E433 /* TTModelTool.h */,
+				64BC131C523A37CEDFE2E1C12DE4D425 /* TTModelTool.m */,
+				1ACA8C1DDB3F7FAAE18F37EDBCE946D7 /* TTSqliteModelTool.h */,
+				D3FAE6AB8A7AE893CB9C7A8EF7DAE8A6 /* TTSqliteModelTool.m */,
+				20683661176DAD07A884B4B82D1935AD /* TTSqliteTool.h */,
+				CC904D4C0325E7F324ACD1D021A9E1E3 /* TTSqliteTool.m */,
+				668A106B761BC436D611727E47E648BA /* TTTableTool.h */,
+				A4738E5CB9585F953B03AF29ADB3FF89 /* TTTableTool.m */,
+				E2607A8FF14699049210AFF63480CD9E /* Support Files */,
+			);
+			name = TTSqlite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				23698FBF125E59D6DD282CA3E2CD3A70 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8DE3B740AAA008BEC02EB8606EC189DE /* Products */,
+				FFEF5A1A1B0FC84BBC5ABC1AA2B9BAFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE3B740AAA008BEC02EB8606EC189DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6774D738B8EC995BE09C47DF9787E873 /* Pods_TTSqlite_Example.framework */,
+				85C75807915836CC4936BCF56A366D93 /* Pods_TTSqlite_Tests.framework */,
+				29D7102B3C126A3E4E84E9284926EB1B /* TTSqlite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2607A8FF14699049210AFF63480CD9E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7946F3BB10C3253A93224140C5FD71C /* Info.plist */,
+				3F10F087ECB7198FB6500C5C4EAFF2B4 /* TTSqlite.modulemap */,
+				26181DDDBA2901EA03462F2D234B4530 /* TTSqlite.xcconfig */,
+				4BDBEA40B778A3649C9C1354B7AC116D /* TTSqlite-dummy.m */,
+				E8CAB1614EA9CAE2F83EDFEE5C72B8D1 /* TTSqlite-prefix.pch */,
+				8313D2403E03ECF5C026466553C6AE9A /* TTSqlite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TTSqlite";
+			sourceTree = "<group>";
+		};
+		FFEF5A1A1B0FC84BBC5ABC1AA2B9BAFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC290B172BF1B84F42E11646C56F531 /* Pods-TTSqlite_Example */,
+				5D77F1BBF9A67BDF94ED3BBA5B698868 /* Pods-TTSqlite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33C92BBF56A1F278E8BF130361F8DD1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BB967CC682040F3355556851E4D1A9 /* Pods-TTSqlite_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E56660353EC82AB639E04139AF2B962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEA45999C041BFD7A8F82F9EA884874 /* TTModelProtocol.h in Headers */,
+				CFAE6C84EA361D8E216B761859D9C862 /* TTModelTool.h in Headers */,
+				6A8A611A6BAD2E5C6681845A26FA9863 /* TTSqlite-umbrella.h in Headers */,
+				EC805BA1CBCC8004715572E90E48EAD6 /* TTSqliteModelTool.h in Headers */,
+				E0D0ACE7DF7D814388BAEBC6CC35C3FA /* TTSqliteTool.h in Headers */,
+				2521B78289B705A229629A98AB44235A /* TTTableTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E3ADFD278269DA24CB1FC29F35089A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C33E35F8D8A71F781F7528B70551BFC /* Pods-TTSqlite_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26AB17D6D2C5886398EE197735B9674E /* Pods-TTSqlite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48862A0EB956724E93B9206C678F043 /* Build configuration list for PBXNativeTarget "Pods-TTSqlite_Tests" */;
+			buildPhases = (
+				77DDD9B60F94485C99B9925BAAA31006 /* Sources */,
+				58CB18E231483618AF1204AE570C0715 /* Frameworks */,
+				33C92BBF56A1F278E8BF130361F8DD1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTSqlite_Tests";
+			productName = "Pods-TTSqlite_Tests";
+			productReference = 85C75807915836CC4936BCF56A366D93 /* Pods_TTSqlite_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D9AE30C3D475FD2345BA5134B9FF2BA /* TTSqlite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA6305DEC48163892D15010E8F28FEA /* Build configuration list for PBXNativeTarget "TTSqlite" */;
+			buildPhases = (
+				12B9B633E48D61349CE48E20FEB5DD38 /* Sources */,
+				B5E72E4146C08BC8D4BC5876E9275414 /* Frameworks */,
+				9E56660353EC82AB639E04139AF2B962 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSqlite;
+			productName = TTSqlite;
+			productReference = 29D7102B3C126A3E4E84E9284926EB1B /* TTSqlite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAE72E1FAFB6713A706560DFADB81080 /* Pods-TTSqlite_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2491FBEADC8F6CDA8DCCBC538B312EFE /* Build configuration list for PBXNativeTarget "Pods-TTSqlite_Example" */;
+			buildPhases = (
+				E3F1D21DE7369B03A7F403FA94AFBBB0 /* Sources */,
+				1141130AF91E7C60DC6A127BE6F48471 /* Frameworks */,
+				E2E3ADFD278269DA24CB1FC29F35089A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EC7B3C8CF4B057B49B9FD826AC4C4F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTSqlite_Example";
+			productName = "Pods-TTSqlite_Example";
+			productReference = 6774D738B8EC995BE09C47DF9787E873 /* Pods_TTSqlite_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8DE3B740AAA008BEC02EB8606EC189DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE72E1FAFB6713A706560DFADB81080 /* Pods-TTSqlite_Example */,
+				26AB17D6D2C5886398EE197735B9674E /* Pods-TTSqlite_Tests */,
+				7D9AE30C3D475FD2345BA5134B9FF2BA /* TTSqlite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B9B633E48D61349CE48E20FEB5DD38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2ECE28AD54AB5FCB95ABA72976FF9 /* TTModelTool.m in Sources */,
+				35C5D6DA3E0937C5554EE7B85AE98005 /* TTSqlite-dummy.m in Sources */,
+				93014ECB17FB92235C36B2B9D0BC5EB2 /* TTSqliteModelTool.m in Sources */,
+				6E984F064B9B1D1DCE9887E9ED0170C4 /* TTSqliteTool.m in Sources */,
+				4063F6CEE5F80120F64FC2889AFD5DB9 /* TTTableTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DDD9B60F94485C99B9925BAAA31006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D80F3C4019C5D5B548A6DEAA791E17 /* Pods-TTSqlite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F1D21DE7369B03A7F403FA94AFBBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1731A0A1100D962DD62EA8C3AA33391C /* Pods-TTSqlite_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EC7B3C8CF4B057B49B9FD826AC4C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSqlite;
+			target = 7D9AE30C3D475FD2345BA5134B9FF2BA /* TTSqlite */;
+			targetProxy = 1FCA3C88117AA34020FED6088517F049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B87A07E897EB5F7C857B878103060E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26181DDDBA2901EA03462F2D234B4530 /* TTSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSqlite/TTSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSqlite/TTSqlite.modulemap";
+				PRODUCT_NAME = TTSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903B99FD45420A8D31FAACD3601C24AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DD6BE8A7036A9C9113C3F41D5A5629 /* Pods-TTSqlite_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTSqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTSqlite_Tests/Pods-TTSqlite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTSqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7C2AB2882D5F7E3F5B0EBF55513D38A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BAAF339A77CBB6C3A647B8401D7DCCA /* Pods-TTSqlite_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTSqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTSqlite_Example/Pods-TTSqlite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTSqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5DEA54F4253267B0B3AF27E93451F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1A5EEB7FA4CC661A9931E5839C64AD /* Pods-TTSqlite_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTSqlite_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTSqlite_Tests/Pods-TTSqlite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTSqlite_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF045A77C2F47BCE755AB9BB62D88B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26181DDDBA2901EA03462F2D234B4530 /* TTSqlite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTSqlite/TTSqlite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSqlite/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSqlite/TTSqlite.modulemap";
+				PRODUCT_NAME = TTSqlite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F42B555B5370BD99F51B69F883227AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9ADD0C4C6CF9D70111EAABC2A9CAF0 /* Pods-TTSqlite_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTSqlite_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTSqlite_Example/Pods-TTSqlite_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TTSqlite_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2491FBEADC8F6CDA8DCCBC538B312EFE /* Build configuration list for PBXNativeTarget "Pods-TTSqlite_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C2AB2882D5F7E3F5B0EBF55513D38A /* Debug */,
+				F42B555B5370BD99F51B69F883227AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA6305DEC48163892D15010E8F28FEA /* Build configuration list for PBXNativeTarget "TTSqlite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B87A07E897EB5F7C857B878103060E8 /* Debug */,
+				EF045A77C2F47BCE755AB9BB62D88B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48862A0EB956724E93B9206C678F043 /* Build configuration list for PBXNativeTarget "Pods-TTSqlite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903B99FD45420A8D31FAACD3601C24AF /* Debug */,
+				D5DEA54F4253267B0B3AF27E93451F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

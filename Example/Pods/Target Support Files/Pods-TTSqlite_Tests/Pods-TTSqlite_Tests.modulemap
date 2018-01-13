@@ -1,0 +1,6 @@
+framework module Pods_TTSqlite_Tests {
+  umbrella header "Pods-TTSqlite_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

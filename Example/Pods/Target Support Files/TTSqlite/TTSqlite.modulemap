@@ -1,0 +1,6 @@
+framework module TTSqlite {
+  umbrella header "TTSqlite-umbrella.h"
+
+  export *
+  module * { export * }
+}
