@@ -7,9 +7,11 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "TTSqliteTool.h"
+#import <TTSqlite/TTSqliteTool.h>
+#import <TTSqlite/TTSqliteModelTool.h>
+//#import "TTSqliteTool.h"
 #import "TTStu.h"
-#import "TTSqliteModelTool.h"
+//#import "TTSqliteModelTool.h"
 
 @interface TTSqliteToolTest : XCTestCase
 

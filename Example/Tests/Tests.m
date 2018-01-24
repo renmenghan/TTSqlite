@@ -28,9 +28,12 @@
 
 - (void)testExample
 {
+    int i = 5;
+    NSLog(@"%d",i++);
+    NSLog(@"%d",i);
     
-    NSArray *arr = @[@"2",@"3",@"5"];
-    BOOL result = [arr containsObject:@"6"];
+//    NSArray *arr = @[@"2",@"3",@"5"];
+//    BOOL result = [arr containsObject:@"6"];
     
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
     

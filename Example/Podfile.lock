@@ -1,5 +1,5 @@
 PODS:
-  - TTSqlite (0.1.1)
+  - TTSqlite (0.1.2)
 
 DEPENDENCIES:
   - TTSqlite (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TTSqlite: 867b32966a202d8d11cbbbc63d6abd1a074e8f14
+  TTSqlite: 6e6042f4eabca8f9a47760655fb03e82c87cfe30
 
 PODFILE CHECKSUM: 90a80c9037b39914c87ee835283a2a9057370ad6
 

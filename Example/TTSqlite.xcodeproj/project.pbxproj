@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2076BF059F5E4B565714415C /* Pods_TTSqlite_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091AF5F6277F94A747CFB23 /* Pods_TTSqlite_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,17 +20,17 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		745BD5D503EB55A1AAA1450F /* Pods_TTSqlite_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8091AF5F6277F94A747CFB23 /* Pods_TTSqlite_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		88C2C52D4D1E9EF528E0F6C8 /* Pods_TTSqlite_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571972A1DB1A610F4D404F7A /* Pods_TTSqlite_Tests.framework */; };
+		E119B7AE201033CE0057738A /* TTSqliteToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466E42004CC83007C198E /* TTSqliteToolTest.m */; };
+		E119B7AF201033D60057738A /* TTSqliteModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2F2006570F003F0083 /* TTSqliteModelToolTest.m */; };
+		E119B7B0201033DC0057738A /* TTTableToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2D2005C476003F0083 /* TTTableToolTest.m */; };
+		E119B7B1201033E60057738A /* TTModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466EF20050D31007C198E /* TTModelToolTest.m */; };
+		E119B7B2201034500057738A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C466E02004C765007C198E /* libsqlite3.0.tbd */; };
+		E119B7B320103DF70057738A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		E1C466E12004C765007C198E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C466E02004C765007C198E /* libsqlite3.0.tbd */; };
-		E1C466E52004CC83007C198E /* TTSqliteToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466E42004CC83007C198E /* TTSqliteToolTest.m */; };
-		E1C466F020050D31007C198E /* TTModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466EF20050D31007C198E /* TTModelToolTest.m */; };
 		E1C466F320050D61007C198E /* TTStu.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C466F220050D61007C198E /* TTStu.m */; };
-		E1F97C2E2005C476003F0083 /* TTTableToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2D2005C476003F0083 /* TTTableToolTest.m */; };
-		E1F97C302006570F003F0083 /* TTSqliteModelToolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F97C2F2006570F003F0083 /* TTSqliteModelToolTest.m */; };
-		EA478B6EA02FB719CB4D1A6E /* Pods_TTSqlite_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571972A1DB1A610F4D404F7A /* Pods_TTSqlite_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +92,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				745BD5D503EB55A1AAA1450F /* Pods_TTSqlite_Example.framework in Frameworks */,
+				2076BF059F5E4B565714415C /* Pods_TTSqlite_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +100,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E119B7B2201034500057738A /* libsqlite3.0.tbd in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				EA478B6EA02FB719CB4D1A6E /* Pods_TTSqlite_Tests.framework in Frameworks */,
+				88C2C52D4D1E9EF528E0F6C8 /* Pods_TTSqlite_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +437,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C466F020050D31007C198E /* TTModelToolTest.m in Sources */,
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				E1F97C2E2005C476003F0083 /* TTTableToolTest.m in Sources */,
-				E1F97C302006570F003F0083 /* TTSqliteModelToolTest.m in Sources */,
-				E1C466E52004CC83007C198E /* TTSqliteToolTest.m in Sources */,
+				E119B7B320103DF70057738A /* Tests.m in Sources */,
+				E119B7B1201033E60057738A /* TTModelToolTest.m in Sources */,
+				E119B7B0201033DC0057738A /* TTTableToolTest.m in Sources */,
+				E119B7AF201033D60057738A /* TTSqliteModelToolTest.m in Sources */,
+				E119B7AE201033CE0057738A /* TTSqliteToolTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
