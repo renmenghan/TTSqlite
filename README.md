@@ -1,5 +1,5 @@
 # TTSqlite
-sqlite的封装  直接操作模型 支持数组 字典存储 在测试用例中有使用的方法.
+sqlite的封装  直接操作模型 支持数组 字典存储 在测试用例中有使用的方法...
 [![CI Status](http://img.shields.io/travis/renmenghan/TTSqlite.svg?style=flat)](https://travis-ci.org/renmenghan/TTSqlite)
 [![Version](https://img.shields.io/cocoapods/v/TTSqlite.svg?style=flat)](http://cocoapods.org/pods/TTSqlite)
 [![License](https://img.shields.io/cocoapods/l/TTSqlite.svg?style=flat)](http://cocoapods.org/pods/TTSqlite)
